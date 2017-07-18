@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Value;
 @RefreshScope
 public class EmployeeController {
 
-	private static final Logger logger = LoggerFactory.getLogger(MyController.class);
+	private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
     
 	
 	

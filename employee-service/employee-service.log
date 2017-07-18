@@ -6023,3 +6023,366 @@ java.io.IOException: Connection reset by peer
 2017-07-14 19:11:51.487  INFO 2141 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
 2017-07-14 19:11:51.487  INFO 2141 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
 2017-07-14 19:11:51.526  INFO 2141 --- [Thread-10] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-07-18 09:33:21.801  INFO [employee-service,,,] 1235 --- [main] com.employee.main.EmployeeApplication    : No active profile set, falling back to default profiles: default
+2017-07-18 09:33:21.828  INFO [employee-service,,,] 1235 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77561636: startup date [Tue Jul 18 09:33:21 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1e493d02
+2017-07-18 09:33:22.992  INFO [employee-service,,,] 1235 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-07-18 09:33:23.841  INFO [employee-service,,,] 1235 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5db5b12d-e706-3c35-806f-8845af9485b5
+2017-07-18 09:33:23.896  INFO [employee-service,,,] 1235 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-07-18 09:33:23.900  INFO [employee-service,,,] 1235 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-07-18 09:33:24.283  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$34bb65c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:24.340  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$9e4af202] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:24.615  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$636e9a71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:25.231  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:25.306  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:25.345  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:25.559  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7d23573c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:25.624  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration' of type [org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration$$EnhancerBySpringCGLIB$$22d0f244] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:25.744  INFO [employee-service,,,] 1235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$48ed005e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:33:26.560  INFO [employee-service,,,] 1235 --- [main] org.xnio                                 : XNIO version 3.3.6.Final
+2017-07-18 09:33:26.588  INFO [employee-service,,,] 1235 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+2017-07-18 09:33:26.743  WARN [employee-service,,,] 1235 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-07-18 09:33:26.754  WARN [employee-service,,,] 1235 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-07-18 09:33:26.802  INFO [employee-service,,,] 1235 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2017-07-18 09:33:26.803  INFO [employee-service,,,] 1235 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4975 ms
+2017-07-18 09:33:29.064  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2017-07-18 09:33:29.070  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-18 09:33:29.071  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2017-07-18 09:33:29.072  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-18 09:33:29.072  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-18 09:33:29.072  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-18 09:33:29.072  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-07-18 09:33:29.072  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-07-18 09:33:29.072  INFO [employee-service,,,] 1235 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-18 09:33:31.154  INFO [employee-service,,,] 1235 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77561636: startup date [Tue Jul 18 09:33:21 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1e493d02
+2017-07-18 09:33:31.581  INFO [employee-service,,,] 1235 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/employee],methods=[GET]}" onto public java.lang.String com.employee.main.EmployeeController.getEmployee()
+2017-07-18 09:33:31.595  INFO [employee-service,,,] 1235 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-18 09:33:31.602  INFO [employee-service,,,] 1235 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-18 09:33:31.987  INFO [employee-service,,,] 1235 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 09:33:31.989  INFO [employee-service,,,] 1235 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 09:33:32.279  INFO [employee-service,,,] 1235 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 09:33:33.616  INFO [employee-service,,,] 1235 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2017-07-18 09:33:35.813  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-07-18 09:33:35.814  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.815  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-07-18 09:33:35.816  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-07-18 09:33:35.818  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.824  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.827  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.830  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-07-18 09:33:35.831  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-07-18 09:33:35.832  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-07-18 09:33:35.834  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-07-18 09:33:35.836  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-07-18 09:33:35.837  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/channels || /channels.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.842  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-07-18 09:33:35.843  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-07-18 09:33:35.847  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-07-18 09:33:35.854  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-07-18 09:33:35.854  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.856  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-07-18 09:33:35.858  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.861  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.862  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-07-18 09:33:35.870  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.871  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.871  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:35.873  INFO [employee-service,,,] 1235 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:33:37.617  INFO [employee-service,,,] 1235 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2017-07-18 09:33:38.033  INFO [employee-service,,,] 1235 --- [main] o.s.i.codec.kryo.CompositeKryoRegistrar  : configured Kryo registration [40, java.io.File] with serializer org.springframework.integration.codec.kryo.FileSerializer
+2017-07-18 09:33:38.553  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-18 09:33:38.579  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'integrationMbeanExporter' has been autodetected for JMX exposure
+2017-07-18 09:33:38.582  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-07-18 09:33:38.586  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-07-18 09:33:38.588  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-07-18 09:33:38.591  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-07-18 09:33:38.600  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-07-18 09:33:38.605  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-07-18 09:33:38.642  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-07-18 09:33:38.671  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-07-18 09:33:38.707  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'integrationMbeanExporter': registering with JMX server as MBean [org.springframework.integration.monitor:name=integrationMbeanExporter,type=IntegrationMBeanExporter]
+2017-07-18 09:33:38.802  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=77561636,type=ConfigurationPropertiesRebinder]
+2017-07-18 09:33:38.807  INFO [employee-service,,,] 1235 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-07-18 09:33:38.827  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering beans for JMX exposure on startup
+2017-07-18 09:33:38.828  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel sleuth
+2017-07-18 09:33:38.836  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageChannel,name=sleuth': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=sleuth]
+2017-07-18 09:33:38.918  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2017-07-18 09:33:38.924  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageChannel,name=nullChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=nullChannel]
+2017-07-18 09:33:38.949  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2017-07-18 09:33:38.952  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageChannel,name=errorChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=errorChannel]
+2017-07-18 09:33:39.018  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2017-07-18 09:33:39.022  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal': registering with JMX server as MBean [org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal]
+2017-07-18 09:33:39.070  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageSource sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-07-18 09:33:39.072  INFO [employee-service,,,] 1235 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint': registering with JMX server as MBean [org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint]
+2017-07-18 09:33:39.561  INFO [employee-service,,,] 1235 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2017-07-18 09:33:39.720  INFO [employee-service,,,] 1235 --- [main] com.employee.main.EmployeeApplication    : No active profile set, falling back to default profiles: default
+2017-07-18 09:33:39.730  INFO [employee-service,,,] 1235 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2caba570: startup date [Tue Jul 18 09:33:39 UTC 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77561636
+2017-07-18 09:33:39.912  INFO [employee-service,,,] 1235 --- [main] o.s.c.s.b.k.c.KafkaBinderConfiguration   : AdminUtils selected: Kafka 0.10 AdminUtils
+2017-07-18 09:33:40.019  INFO [employee-service,,,] 1235 --- [main] com.employee.main.EmployeeApplication    : Started EmployeeApplication in 0.424 seconds (JVM running for 27.916)
+2017-07-18 09:33:40.112  INFO [employee-service,,,] 1235 --- [main] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: sleuth
+2017-07-18 09:33:40.214  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2017-07-18 09:33:40.214  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=kafkainstance.c.arcane-silo-171509.internal
+2017-07-18 09:33:40.214  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_131
+2017-07-18 09:33:40.214  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2017-07-18 09:33:40.215  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2017-07-18 09:33:40.215  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar
+2017-07-18 09:33:40.215  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2017-07-18 09:33:40.215  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=/tmp
+2017-07-18 09:33:40.215  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2017-07-18 09:33:40.216  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Linux
+2017-07-18 09:33:40.216  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2017-07-18 09:33:40.216  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=3.16.0-4-amd64
+2017-07-18 09:33:40.216  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=root
+2017-07-18 09:33:40.217  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=/root
+2017-07-18 09:33:40.217  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=/home/volivattamjaadu/spring-cloud-tracing-demos/employee-service
+2017-07-18 09:33:40.221  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=localhost:2181 sessionTimeout=10000 watcher=org.I0Itec.zkclient.ZkClient@64ee27e5
+2017-07-18 09:33:40.267  INFO [employee-service,,,] 1235 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-07-18 09:33:40.283  INFO [employee-service,,,] 1235 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2017-07-18 09:33:40.292  INFO [employee-service,,,] 1235 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x15d54fbcf8b0003, negotiated timeout = 10000
+2017-07-18 09:33:41.187  INFO [employee-service,,,] 1235 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down for session: 0x15d54fbcf8b0003
+2017-07-18 09:33:41.188  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Session: 0x15d54fbcf8b0003 closed
+2017-07-18 09:33:41.191  INFO [employee-service,,,] 1235 --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=localhost:2181 sessionTimeout=10000 watcher=org.I0Itec.zkclient.ZkClient@5d120b12
+2017-07-18 09:33:41.206  INFO [employee-service,,,] 1235 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-07-18 09:33:41.207  INFO [employee-service,,,] 1235 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2017-07-18 09:33:41.210  INFO [employee-service,,,] 1235 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x15d54fbcf8b0004, negotiated timeout = 10000
+2017-07-18 09:33:41.301  INFO [employee-service,,,] 1235 --- [main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2017-07-18 09:33:41.315  INFO [employee-service,,,] 1235 --- [main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2017-07-18 09:33:41.384  WARN [employee-service,,,] 1235 --- [main] o.a.k.clients.producer.ProducerConfig    : The configuration 'key.deserializer' was supplied but isn't a known config.
+2017-07-18 09:33:41.385  WARN [employee-service,,,] 1235 --- [main] o.a.k.clients.producer.ProducerConfig    : The configuration 'value.deserializer' was supplied but isn't a known config.
+2017-07-18 09:33:41.386  INFO [employee-service,,,] 1235 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 0.10.1.1
+2017-07-18 09:33:41.387  INFO [employee-service,,,] 1235 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : f10ef2720b03b247
+2017-07-18 09:33:41.517  INFO [employee-service,,,] 1235 --- [main] o.s.integration.channel.DirectChannel    : Channel 'employee-service:5003.sleuth' has 1 subscriber(s).
+2017-07-18 09:33:41.523  INFO [employee-service,,,] 1235 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-07-18 09:33:41.649  INFO [employee-service,,,] 1235 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-07-18 09:33:41.649  INFO [employee-service,,,] 1235 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'employee-service:5003.errorChannel' has 1 subscriber(s).
+2017-07-18 09:33:41.649  INFO [employee-service,,,] 1235 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2017-07-18 09:33:41.685  INFO [employee-service,,,] 1235 --- [main] o.s.i.e.SourcePollingChannelAdapter      : started sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-07-18 09:33:41.685  INFO [employee-service,,,] 1235 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147482647
+2017-07-18 09:33:41.686  INFO [employee-service,,,] 1235 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-07-18 09:33:41.869  INFO [employee-service,,,] 1235 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 5003 (http)
+2017-07-18 09:33:41.875  INFO [employee-service,,,] 1235 --- [main] com.employee.main.EmployeeApplication    : Started EmployeeApplication in 22.528 seconds (JVM running for 29.772)
+2017-07-18 09:34:03.218 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Initializing filter 'traceFilter'
+2017-07-18 09:34:03.218 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Filter 'traceFilter' configured successfully
+2017-07-18 09:34:03.219 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:34:03.228 DEBUG [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:34:03.248  INFO [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-18 09:34:03.248  INFO [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-18 09:34:03.342  INFO [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 94 ms
+2017-07-18 09:34:03.364 DEBUG [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 82a99bad24295643, Span: 82a99bad24295643, Parent: null, exportable:true]
+2017-07-18 09:34:03.371 DEBUG [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: 82a99bad24295643, Span: 82a99bad24295643, Parent: null, exportable:true]
+2017-07-18 09:34:03.371 DEBUG [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: 82a99bad24295643, Span: 82a99bad24295643, Parent: null, exportable:true]
+2017-07-18 09:34:03.387  INFO [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:34:03.437 DEBUG [employee-service,82a99bad24295643,82a99bad24295643,true] 1235 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 82a99bad24295643, Span: 82a99bad24295643, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:34:03.704 DEBUG [employee-service,,,] 1235 --- [task-scheduler-3] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:34:03.704 DEBUG [employee-service,,,] 1235 --- [task-scheduler-3] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:34:03.851 DEBUG [employee-service,ad1e9b65308c4b19,ad1e9b65308c4b19,false] 1235 --- [task-scheduler-3] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: ad1e9b65308c4b19, Span: ad1e9b65308c4b19, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:36:11.352 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:36:11.352 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Found a parent span [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true] in the request
+2017-07-18 09:36:11.352 DEBUG [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Parent span is [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true]
+2017-07-18 09:36:11.366 DEBUG [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true]
+2017-07-18 09:36:11.367 DEBUG [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true]
+2017-07-18 09:36:11.367 DEBUG [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true]
+2017-07-18 09:36:11.367  INFO [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:36:11.370 DEBUG [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Trying to send the parent span [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true] to Zipkin
+2017-07-18 09:36:11.381 DEBUG [employee-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1235 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true] since the response was successful
+2017-07-18 09:36:11.894 DEBUG [employee-service,,,] 1235 --- [task-scheduler-8] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:36:11.894 DEBUG [employee-service,,,] 1235 --- [task-scheduler-8] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:36:11.907 DEBUG [employee-service,b4917fd25b7d4f9e,b4917fd25b7d4f9e,false] 1235 --- [task-scheduler-8] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: b4917fd25b7d4f9e, Span: b4917fd25b7d4f9e, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:36:13.301 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:36:13.303 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Found a parent span [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true] in the request
+2017-07-18 09:36:13.303 DEBUG [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Parent span is [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true]
+2017-07-18 09:36:13.314 DEBUG [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true]
+2017-07-18 09:36:13.315 DEBUG [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true]
+2017-07-18 09:36:13.315 DEBUG [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true]
+2017-07-18 09:36:13.316  INFO [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:36:13.342 DEBUG [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Trying to send the parent span [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true] to Zipkin
+2017-07-18 09:36:13.343 DEBUG [employee-service,0298e5692706430f,ab935ee847070fe5,true] 1235 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true] since the response was successful
+2017-07-18 09:36:13.907 DEBUG [employee-service,,,] 1235 --- [task-scheduler-9] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:36:13.908 DEBUG [employee-service,,,] 1235 --- [task-scheduler-9] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:36:13.919 DEBUG [employee-service,b4675d5efbcd62a9,b4675d5efbcd62a9,false] 1235 --- [task-scheduler-9] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: b4675d5efbcd62a9, Span: b4675d5efbcd62a9, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:36:14.406 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:36:14.407 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Found a parent span [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true] in the request
+2017-07-18 09:36:14.413 DEBUG [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Parent span is [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true]
+2017-07-18 09:36:14.421 DEBUG [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true]
+2017-07-18 09:36:14.421 DEBUG [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true]
+2017-07-18 09:36:14.421 DEBUG [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true]
+2017-07-18 09:36:14.421  INFO [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:36:14.440 DEBUG [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Trying to send the parent span [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true] to Zipkin
+2017-07-18 09:36:14.450 DEBUG [employee-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1235 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true] since the response was successful
+2017-07-18 09:36:14.923 DEBUG [employee-service,,,] 1235 --- [task-scheduler-10] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:36:14.923 DEBUG [employee-service,,,] 1235 --- [task-scheduler-10] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:36:14.931 DEBUG [employee-service,1001fd0433fdd643,1001fd0433fdd643,false] 1235 --- [task-scheduler-10] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 1001fd0433fdd643, Span: 1001fd0433fdd643, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:49.569 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-5] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:38:49.571 DEBUG [employee-service,ff6a2a0d97cfa10c,ff6a2a0d97cfa10c,true] 1235 --- [XNIO-2 task-5] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:38:49.600 DEBUG [employee-service,ff6a2a0d97cfa10c,ff6a2a0d97cfa10c,true] 1235 --- [XNIO-2 task-5] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: ff6a2a0d97cfa10c, Span: ff6a2a0d97cfa10c, Parent: null, exportable:true]
+2017-07-18 09:38:49.600 DEBUG [employee-service,ff6a2a0d97cfa10c,ff6a2a0d97cfa10c,true] 1235 --- [XNIO-2 task-5] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: ff6a2a0d97cfa10c, Span: ff6a2a0d97cfa10c, Parent: null, exportable:true]
+2017-07-18 09:38:49.600 DEBUG [employee-service,ff6a2a0d97cfa10c,ff6a2a0d97cfa10c,true] 1235 --- [XNIO-2 task-5] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: ff6a2a0d97cfa10c, Span: ff6a2a0d97cfa10c, Parent: null, exportable:true]
+2017-07-18 09:38:49.601  INFO [employee-service,ff6a2a0d97cfa10c,ff6a2a0d97cfa10c,true] 1235 --- [XNIO-2 task-5] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:38:49.616 DEBUG [employee-service,ff6a2a0d97cfa10c,ff6a2a0d97cfa10c,true] 1235 --- [XNIO-2 task-5] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: ff6a2a0d97cfa10c, Span: ff6a2a0d97cfa10c, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:38:49.982 DEBUG [employee-service,,,] 1235 --- [task-scheduler-6] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:38:49.982 DEBUG [employee-service,,,] 1235 --- [task-scheduler-6] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:38:49.995 DEBUG [employee-service,7e1f74dc8ab599ee,7e1f74dc8ab599ee,false] 1235 --- [task-scheduler-6] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 7e1f74dc8ab599ee, Span: 7e1f74dc8ab599ee, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:50.116 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-6] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/favicon.ico] that should not be sampled [true]
+2017-07-18 09:38:50.117 DEBUG [employee-service,11b6801e22dff908,11b6801e22dff908,false] 1235 --- [XNIO-2 task-6] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:38:50.548 DEBUG [employee-service,11b6801e22dff908,f876fd4d75397701,false] 1235 --- [XNIO-2 task-6] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 11b6801e22dff908, Span: f876fd4d75397701, Parent: 11b6801e22dff908, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:50.548 DEBUG [employee-service,11b6801e22dff908,11b6801e22dff908,false] 1235 --- [XNIO-2 task-6] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 11b6801e22dff908, Span: 11b6801e22dff908, Parent: null, exportable:false] since the response was successful
+2017-07-18 09:38:50.548 DEBUG [employee-service,11b6801e22dff908,11b6801e22dff908,false] 1235 --- [XNIO-2 task-6] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 11b6801e22dff908, Span: 11b6801e22dff908, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:58.962 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:38:58.962 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Found a parent span [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true] in the request
+2017-07-18 09:38:58.963 DEBUG [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Parent span is [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true]
+2017-07-18 09:38:58.970 DEBUG [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true]
+2017-07-18 09:38:58.971 DEBUG [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true]
+2017-07-18 09:38:58.971 DEBUG [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true]
+2017-07-18 09:38:58.971  INFO [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:38:58.973 DEBUG [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Trying to send the parent span [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true] to Zipkin
+2017-07-18 09:38:58.978 DEBUG [employee-service,f653489a6837c071,50c13ce350ed5554,true] 1235 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true] since the response was successful
+2017-07-18 09:38:58.997 DEBUG [employee-service,,,] 1235 --- [task-scheduler-7] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:38:58.997 DEBUG [employee-service,,,] 1235 --- [task-scheduler-7] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:38:59.014 DEBUG [employee-service,3a913e80f50e2c16,3a913e80f50e2c16,false] 1235 --- [task-scheduler-7] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 3a913e80f50e2c16, Span: 3a913e80f50e2c16, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:39:00.962 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-8] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:39:00.967 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-8] o.s.c.sleuth.instrument.web.TraceFilter  : Found a parent span [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true] in the request
+2017-07-18 09:39:00.967 DEBUG [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] o.s.c.sleuth.instrument.web.TraceFilter  : Parent span is [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true]
+2017-07-18 09:39:00.969 DEBUG [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true]
+2017-07-18 09:39:00.969 DEBUG [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true]
+2017-07-18 09:39:00.970 DEBUG [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true]
+2017-07-18 09:39:00.976  INFO [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:39:00.988 DEBUG [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] o.s.c.sleuth.instrument.web.TraceFilter  : Trying to send the parent span [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true] to Zipkin
+2017-07-18 09:39:00.989 DEBUG [employee-service,851365e808a417ed,102461c3b1e59193,true] 1235 --- [XNIO-2 task-8] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true] since the response was successful
+2017-07-18 09:39:01.015 DEBUG [employee-service,,,] 1235 --- [task-scheduler-6] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:39:01.015 DEBUG [employee-service,,,] 1235 --- [task-scheduler-6] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:39:01.030 DEBUG [employee-service,b83506cdc52ff2aa,b83506cdc52ff2aa,false] 1235 --- [task-scheduler-6] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: b83506cdc52ff2aa, Span: b83506cdc52ff2aa, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:39:29.554 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-9] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/employee] that should not be sampled [false]
+2017-07-18 09:39:29.555 DEBUG [employee-service,,,] 1235 --- [XNIO-2 task-9] o.s.c.sleuth.instrument.web.TraceFilter  : Found a parent span [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true] in the request
+2017-07-18 09:39:29.555 DEBUG [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] o.s.c.sleuth.instrument.web.TraceFilter  : Parent span is [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true]
+2017-07-18 09:39:29.559 DEBUG [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true]
+2017-07-18 09:39:29.559 DEBUG [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployee] to a span [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true]
+2017-07-18 09:39:29.560 DEBUG [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [EmployeeController] to a span [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true]
+2017-07-18 09:39:29.560  INFO [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] com.employee.main.EmployeeController     : Inside employee-service
+2017-07-18 09:39:29.563 DEBUG [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] o.s.c.sleuth.instrument.web.TraceFilter  : Trying to send the parent span [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true] to Zipkin
+2017-07-18 09:39:29.564 DEBUG [employee-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1235 --- [XNIO-2 task-9] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true] since the response was successful
+2017-07-18 09:39:30.037 DEBUG [employee-service,,,] 1235 --- [task-scheduler-3] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:39:30.038 DEBUG [employee-service,,,] 1235 --- [task-scheduler-3] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [employee-service]
+2017-07-18 09:39:30.053 DEBUG [employee-service,f85cd7c6bb181d21,f85cd7c6bb181d21,false] 1235 --- [task-scheduler-3] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: f85cd7c6bb181d21, Span: f85cd7c6bb181d21, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:40:17.263  INFO [employee-service,,,] 1235 --- [Thread-8] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77561636: startup date [Tue Jul 18 09:33:21 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1e493d02
+2017-07-18 09:40:17.267  INFO [employee-service,,,] 1235 --- [Thread-8] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2caba570: startup date [Tue Jul 18 09:33:39 UTC 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77561636
+2017-07-18 09:40:17.275  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2017-07-18 09:40:17.276  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482647
+2017-07-18 09:40:17.276  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-07-18 09:40:17.277  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-07-18 09:40:17.290  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.channel.PublishSubscribeChannel    : Channel 'employee-service:5003.errorChannel' has 0 subscriber(s).
+2017-07-18 09:40:17.290  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2017-07-18 09:40:17.290  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.e.SourcePollingChannelAdapter      : stopped sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-07-18 09:40:17.290  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2017-07-18 09:40:17.290  INFO [employee-service,,,] 1235 --- [Thread-8] o.a.k.clients.producer.KafkaProducer     : Closing the Kafka producer with timeoutMillis = 30000 ms.
+2017-07-18 09:40:17.303  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2017-07-18 09:40:17.304  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Unregistering JMX-exposed beans on shutdown
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Unregistering JMX-exposed beans
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: sleuth
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: errorChannel
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.integration.endpoint.MethodInvokingMessageSource@4f3039ee
+2017-07-18 09:40:17.307  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-18 09:40:17.308  INFO [employee-service,,,] 1235 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-18 09:40:17.322  INFO [employee-service,,,] 1235 --- [Thread-8] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'

@@ -1,0 +1,346 @@
+2017-07-18 09:35:34.323  INFO [demo-service,,,] 1306 --- [main] com.demo.main.DemoApplication            : No active profile set, falling back to default profiles: default
+2017-07-18 09:35:34.366  INFO [demo-service,,,] 1306 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79f67b02: startup date [Tue Jul 18 09:35:34 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@179af728
+2017-07-18 09:35:35.880  INFO [demo-service,,,] 1306 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-07-18 09:35:37.063  INFO [demo-service,,,] 1306 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a89115b0-6193-38a2-aaf7-fa7ff526183c
+2017-07-18 09:35:37.124  INFO [demo-service,,,] 1306 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-07-18 09:35:37.127  INFO [demo-service,,,] 1306 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-07-18 09:35:37.469  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$cf6b4d8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:37.530  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$38fad9ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:37.788  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$fe1e823d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:38.287  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:38.397  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:38.450  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:38.740  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17d33f08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:38.815  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration' of type [org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration$$EnhancerBySpringCGLIB$$bd80da10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:38.948  INFO [demo-service,,,] 1306 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$e39ce82a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-18 09:35:39.981  INFO [demo-service,,,] 1306 --- [main] org.xnio                                 : XNIO version 3.3.6.Final
+2017-07-18 09:35:40.019  INFO [demo-service,,,] 1306 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+2017-07-18 09:35:40.218  WARN [demo-service,,,] 1306 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-07-18 09:35:40.222  WARN [demo-service,,,] 1306 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-07-18 09:35:40.279  INFO [demo-service,,,] 1306 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2017-07-18 09:35:40.283  INFO [demo-service,,,] 1306 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5917 ms
+2017-07-18 09:35:43.032  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2017-07-18 09:35:43.039  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-18 09:35:43.040  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'traceFilter' to: [/*]
+2017-07-18 09:35:43.041  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-18 09:35:43.041  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-18 09:35:43.041  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-18 09:35:43.042  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-07-18 09:35:43.048  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-07-18 09:35:43.053  INFO [demo-service,,,] 1306 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-18 09:35:45.349  INFO [demo-service,,,] 1306 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79f67b02: startup date [Tue Jul 18 09:35:34 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@179af728
+2017-07-18 09:35:45.699  INFO [demo-service,,,] 1306 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/employee],methods=[GET]}" onto public java.lang.String com.demo.main.DemoController.getEmployeeDetails()
+2017-07-18 09:35:45.702  INFO [demo-service,,,] 1306 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-18 09:35:45.707  INFO [demo-service,,,] 1306 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-18 09:35:46.023  INFO [demo-service,,,] 1306 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 09:35:46.025  INFO [demo-service,,,] 1306 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 09:35:46.248  INFO [demo-service,,,] 1306 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-18 09:35:47.340  INFO [demo-service,,,] 1306 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2017-07-18 09:35:48.990  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-07-18 09:35:48.995  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-07-18 09:35:48.997  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/channels || /channels.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:48.999  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-07-18 09:35:49.002  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-07-18 09:35:49.006  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.007  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-07-18 09:35:49.008  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-07-18 09:35:49.010  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.016  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-07-18 09:35:49.017  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.019  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.020  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-07-18 09:35:49.020  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.021  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-07-18 09:35:49.027  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.028  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.030  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-07-18 09:35:49.031  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.034  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-07-18 09:35:49.038  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-07-18 09:35:49.038  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.039  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.041  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-07-18 09:35:49.042  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-18 09:35:49.051  INFO [demo-service,,,] 1306 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-07-18 09:35:50.385  INFO [demo-service,,,] 1306 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 
+2017-07-18 09:35:50.754  INFO [demo-service,,,] 1306 --- [main] o.s.i.codec.kryo.CompositeKryoRegistrar  : configured Kryo registration [40, java.io.File] with serializer org.springframework.integration.codec.kryo.FileSerializer
+2017-07-18 09:35:51.507  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-18 09:35:51.543  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'integrationMbeanExporter' has been autodetected for JMX exposure
+2017-07-18 09:35:51.548  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-07-18 09:35:51.559  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-07-18 09:35:51.560  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-07-18 09:35:51.563  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-07-18 09:35:51.565  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-07-18 09:35:51.570  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-07-18 09:35:51.615  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-07-18 09:35:51.662  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-07-18 09:35:51.706  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'integrationMbeanExporter': registering with JMX server as MBean [org.springframework.integration.monitor:name=integrationMbeanExporter,type=IntegrationMBeanExporter]
+2017-07-18 09:35:51.785  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=79f67b02,type=ConfigurationPropertiesRebinder]
+2017-07-18 09:35:51.797  INFO [demo-service,,,] 1306 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-07-18 09:35:51.825  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering beans for JMX exposure on startup
+2017-07-18 09:35:51.826  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel sleuth
+2017-07-18 09:35:51.839  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageChannel,name=sleuth': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=sleuth]
+2017-07-18 09:35:51.916  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2017-07-18 09:35:51.920  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageChannel,name=errorChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=errorChannel]
+2017-07-18 09:35:51.981  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2017-07-18 09:35:51.984  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageChannel,name=nullChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=nullChannel]
+2017-07-18 09:35:52.017  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2017-07-18 09:35:52.025  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal': registering with JMX server as MBean [org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal]
+2017-07-18 09:35:52.064  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageSource sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-07-18 09:35:52.066  INFO [demo-service,,,] 1306 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Located managed bean 'org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint': registering with JMX server as MBean [org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint]
+2017-07-18 09:35:52.433  INFO [demo-service,,,] 1306 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2017-07-18 09:35:52.563  INFO [demo-service,,,] 1306 --- [main] com.demo.main.DemoApplication            : No active profile set, falling back to default profiles: default
+2017-07-18 09:35:52.572  INFO [demo-service,,,] 1306 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@fbb0655: startup date [Tue Jul 18 09:35:52 UTC 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79f67b02
+2017-07-18 09:35:52.693  INFO [demo-service,,,] 1306 --- [main] o.s.c.s.b.k.c.KafkaBinderConfiguration   : AdminUtils selected: Kafka 0.10 AdminUtils
+2017-07-18 09:35:52.806  INFO [demo-service,,,] 1306 --- [main] com.demo.main.DemoApplication            : Started DemoApplication in 0.34 seconds (JVM running for 29.119)
+2017-07-18 09:35:52.872  INFO [demo-service,,,] 1306 --- [main] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: sleuth
+2017-07-18 09:35:52.941  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2017-07-18 09:35:52.946  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:host.name=kafkainstance.c.arcane-silo-171509.internal
+2017-07-18 09:35:52.946  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.version=1.8.0_131
+2017-07-18 09:35:52.946  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.vendor=Oracle Corporation
+2017-07-18 09:35:52.946  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.io.tmpdir=/tmp
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:java.compiler=<NA>
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.name=Linux
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.arch=amd64
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:os.version=3.16.0-4-amd64
+2017-07-18 09:35:52.947  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.name=root
+2017-07-18 09:35:52.948  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.home=/root
+2017-07-18 09:35:52.948  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Client environment:user.dir=/home/volivattamjaadu/spring-cloud-tracing-demos/demo-service
+2017-07-18 09:35:52.949  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=localhost:2181 sessionTimeout=10000 watcher=org.I0Itec.zkclient.ZkClient@4829e138
+2017-07-18 09:35:52.986  INFO [demo-service,,,] 1306 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-07-18 09:35:53.000  INFO [demo-service,,,] 1306 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2017-07-18 09:35:53.008  INFO [demo-service,,,] 1306 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x15d54fbcf8b0005, negotiated timeout = 10000
+2017-07-18 09:35:53.803  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Session: 0x15d54fbcf8b0005 closed
+2017-07-18 09:35:53.804  INFO [demo-service,,,] 1306 --- [main-EventThread] org.apache.zookeeper.ClientCnxn          : EventThread shut down for session: 0x15d54fbcf8b0005
+2017-07-18 09:35:53.806  INFO [demo-service,,,] 1306 --- [main] org.apache.zookeeper.ZooKeeper           : Initiating client connection, connectString=localhost:2181 sessionTimeout=10000 watcher=org.I0Itec.zkclient.ZkClient@5771ae15
+2017-07-18 09:35:53.812  INFO [demo-service,,,] 1306 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-07-18 09:35:53.813  INFO [demo-service,,,] 1306 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Socket connection established to localhost/127.0.0.1:2181, initiating session
+2017-07-18 09:35:53.815  INFO [demo-service,,,] 1306 --- [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn          : Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x15d54fbcf8b0006, negotiated timeout = 10000
+2017-07-18 09:35:53.920  INFO [demo-service,,,] 1306 --- [main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2017-07-18 09:35:53.929  INFO [demo-service,,,] 1306 --- [main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2017-07-18 09:35:53.990  WARN [demo-service,,,] 1306 --- [main] o.a.k.clients.producer.ProducerConfig    : The configuration 'key.deserializer' was supplied but isn't a known config.
+2017-07-18 09:35:53.990  WARN [demo-service,,,] 1306 --- [main] o.a.k.clients.producer.ProducerConfig    : The configuration 'value.deserializer' was supplied but isn't a known config.
+2017-07-18 09:35:53.992  INFO [demo-service,,,] 1306 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 0.10.1.1
+2017-07-18 09:35:53.992  INFO [demo-service,,,] 1306 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : f10ef2720b03b247
+2017-07-18 09:35:54.122  INFO [demo-service,,,] 1306 --- [main] o.s.integration.channel.DirectChannel    : Channel 'demo-service:5002.sleuth' has 1 subscriber(s).
+2017-07-18 09:35:54.124  INFO [demo-service,,,] 1306 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-07-18 09:35:54.211  INFO [demo-service,,,] 1306 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-07-18 09:35:54.212  INFO [demo-service,,,] 1306 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'demo-service:5002.errorChannel' has 1 subscriber(s).
+2017-07-18 09:35:54.212  INFO [demo-service,,,] 1306 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2017-07-18 09:35:54.242  INFO [demo-service,,,] 1306 --- [main] o.s.i.e.SourcePollingChannelAdapter      : started sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-07-18 09:35:54.242  INFO [demo-service,,,] 1306 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147482647
+2017-07-18 09:35:54.243  INFO [demo-service,,,] 1306 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-07-18 09:35:54.370  INFO [demo-service,,,] 1306 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 5002 (http)
+2017-07-18 09:35:54.381  INFO [demo-service,,,] 1306 --- [main] com.demo.main.DemoApplication            : Started DemoApplication in 22.865 seconds (JVM running for 30.694)
+2017-07-18 09:36:10.893 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Initializing filter 'traceFilter'
+2017-07-18 09:36:10.897 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Filter 'traceFilter' configured successfully
+2017-07-18 09:36:10.897 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/demo/employee] that should not be sampled [false]
+2017-07-18 09:36:10.902 DEBUG [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:36:10.920  INFO [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-18 09:36:10.920  INFO [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-18 09:36:11.023  INFO [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 103 ms
+2017-07-18 09:36:11.057 DEBUG [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 7cccfc926c47dea8, Span: 7cccfc926c47dea8, Parent: null, exportable:true]
+2017-07-18 09:36:11.059 DEBUG [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployeeDetails] to a span [Trace: 7cccfc926c47dea8, Span: 7cccfc926c47dea8, Parent: null, exportable:true]
+2017-07-18 09:36:11.066 DEBUG [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [DemoController] to a span [Trace: 7cccfc926c47dea8, Span: 7cccfc926c47dea8, Parent: null, exportable:true]
+2017-07-18 09:36:11.091  INFO [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] com.demo.main.DemoController             : Inside demo-service
+2017-07-18 09:36:11.167 DEBUG [demo-service,7cccfc926c47dea8,1f92d53126fe95c4,true] 1306 --- [XNIO-2 task-1] .w.c.AbstractTraceHttpRequestInterceptor : Starting new client span [[Trace: 7cccfc926c47dea8, Span: 1f92d53126fe95c4, Parent: 7cccfc926c47dea8, exportable:true]]
+2017-07-18 09:36:11.402  INFO [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] com.demo.main.DemoController             : employee service returned: Welcome Employee
+2017-07-18 09:36:11.471 DEBUG [demo-service,7cccfc926c47dea8,7cccfc926c47dea8,true] 1306 --- [XNIO-2 task-1] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 7cccfc926c47dea8, Span: 7cccfc926c47dea8, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:36:12.252 DEBUG [demo-service,,,] 1306 --- [task-scheduler-3] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [2] spans
+2017-07-18 09:36:12.252 DEBUG [demo-service,,,] 1306 --- [task-scheduler-3] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:36:12.459 DEBUG [demo-service,5e936517d9c14471,5e936517d9c14471,false] 1306 --- [task-scheduler-3] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 5e936517d9c14471, Span: 5e936517d9c14471, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:36:13.275 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/demo/employee] that should not be sampled [false]
+2017-07-18 09:36:13.276 DEBUG [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:36:13.288 DEBUG [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 0298e5692706430f, Span: 0298e5692706430f, Parent: null, exportable:true]
+2017-07-18 09:36:13.288 DEBUG [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployeeDetails] to a span [Trace: 0298e5692706430f, Span: 0298e5692706430f, Parent: null, exportable:true]
+2017-07-18 09:36:13.288 DEBUG [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [DemoController] to a span [Trace: 0298e5692706430f, Span: 0298e5692706430f, Parent: null, exportable:true]
+2017-07-18 09:36:13.288  INFO [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] com.demo.main.DemoController             : Inside demo-service
+2017-07-18 09:36:13.289 DEBUG [demo-service,0298e5692706430f,ab935ee847070fe5,true] 1306 --- [XNIO-2 task-2] .w.c.AbstractTraceHttpRequestInterceptor : Starting new client span [[Trace: 0298e5692706430f, Span: ab935ee847070fe5, Parent: 0298e5692706430f, exportable:true]]
+2017-07-18 09:36:13.336  INFO [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] com.demo.main.DemoController             : employee service returned: Welcome Employee
+2017-07-18 09:36:13.363 DEBUG [demo-service,0298e5692706430f,0298e5692706430f,true] 1306 --- [XNIO-2 task-2] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 0298e5692706430f, Span: 0298e5692706430f, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:36:13.460 DEBUG [demo-service,,,] 1306 --- [task-scheduler-6] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [2] spans
+2017-07-18 09:36:13.460 DEBUG [demo-service,,,] 1306 --- [task-scheduler-6] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:36:13.477 DEBUG [demo-service,d13cb812d9082f6e,d13cb812d9082f6e,false] 1306 --- [task-scheduler-6] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: d13cb812d9082f6e, Span: d13cb812d9082f6e, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:36:14.382 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/demo/employee] that should not be sampled [false]
+2017-07-18 09:36:14.383 DEBUG [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:36:14.390 DEBUG [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: cb9b8d8085d32a04, Span: cb9b8d8085d32a04, Parent: null, exportable:true]
+2017-07-18 09:36:14.391 DEBUG [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployeeDetails] to a span [Trace: cb9b8d8085d32a04, Span: cb9b8d8085d32a04, Parent: null, exportable:true]
+2017-07-18 09:36:14.391 DEBUG [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [DemoController] to a span [Trace: cb9b8d8085d32a04, Span: cb9b8d8085d32a04, Parent: null, exportable:true]
+2017-07-18 09:36:14.391  INFO [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] com.demo.main.DemoController             : Inside demo-service
+2017-07-18 09:36:14.392 DEBUG [demo-service,cb9b8d8085d32a04,27adb28e9d446057,true] 1306 --- [XNIO-2 task-3] .w.c.AbstractTraceHttpRequestInterceptor : Starting new client span [[Trace: cb9b8d8085d32a04, Span: 27adb28e9d446057, Parent: cb9b8d8085d32a04, exportable:true]]
+2017-07-18 09:36:14.426  INFO [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] com.demo.main.DemoController             : employee service returned: Welcome Employee
+2017-07-18 09:36:14.439 DEBUG [demo-service,cb9b8d8085d32a04,cb9b8d8085d32a04,true] 1306 --- [XNIO-2 task-3] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: cb9b8d8085d32a04, Span: cb9b8d8085d32a04, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:36:14.477 DEBUG [demo-service,,,] 1306 --- [task-scheduler-2] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [2] spans
+2017-07-18 09:36:14.478 DEBUG [demo-service,,,] 1306 --- [task-scheduler-2] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:36:14.486 DEBUG [demo-service,05c9bba754bfd257,05c9bba754bfd257,false] 1306 --- [task-scheduler-2] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 05c9bba754bfd257, Span: 05c9bba754bfd257, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:58.927 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/demo/employee] that should not be sampled [false]
+2017-07-18 09:38:58.935 DEBUG [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:38:58.949 DEBUG [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: f653489a6837c071, Span: f653489a6837c071, Parent: null, exportable:true]
+2017-07-18 09:38:58.949 DEBUG [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployeeDetails] to a span [Trace: f653489a6837c071, Span: f653489a6837c071, Parent: null, exportable:true]
+2017-07-18 09:38:58.949 DEBUG [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [DemoController] to a span [Trace: f653489a6837c071, Span: f653489a6837c071, Parent: null, exportable:true]
+2017-07-18 09:38:58.949  INFO [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] com.demo.main.DemoController             : Inside demo-service
+2017-07-18 09:38:58.950 DEBUG [demo-service,f653489a6837c071,50c13ce350ed5554,true] 1306 --- [XNIO-2 task-4] .w.c.AbstractTraceHttpRequestInterceptor : Starting new client span [[Trace: f653489a6837c071, Span: 50c13ce350ed5554, Parent: f653489a6837c071, exportable:true]]
+2017-07-18 09:38:58.979  INFO [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] com.demo.main.DemoController             : employee service returned: Welcome Employee
+2017-07-18 09:38:58.987 DEBUG [demo-service,f653489a6837c071,f653489a6837c071,true] 1306 --- [XNIO-2 task-4] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: f653489a6837c071, Span: f653489a6837c071, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:38:59.327 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-5] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/favicon.ico] that should not be sampled [true]
+2017-07-18 09:38:59.327 DEBUG [demo-service,23697ce00e33d69b,23697ce00e33d69b,false] 1306 --- [XNIO-2 task-5] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:38:59.347 DEBUG [demo-service,23697ce00e33d69b,0061722e55e24506,false] 1306 --- [XNIO-2 task-5] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 23697ce00e33d69b, Span: 0061722e55e24506, Parent: 23697ce00e33d69b, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:59.347 DEBUG [demo-service,23697ce00e33d69b,23697ce00e33d69b,false] 1306 --- [XNIO-2 task-5] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 23697ce00e33d69b, Span: 23697ce00e33d69b, Parent: null, exportable:false] since the response was successful
+2017-07-18 09:38:59.349 DEBUG [demo-service,23697ce00e33d69b,23697ce00e33d69b,false] 1306 --- [XNIO-2 task-5] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 23697ce00e33d69b, Span: 23697ce00e33d69b, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:38:59.525 DEBUG [demo-service,,,] 1306 --- [task-scheduler-7] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [2] spans
+2017-07-18 09:38:59.526 DEBUG [demo-service,,,] 1306 --- [task-scheduler-7] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:38:59.543 DEBUG [demo-service,3f8c56d3e60c6932,3f8c56d3e60c6932,false] 1306 --- [task-scheduler-7] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 3f8c56d3e60c6932, Span: 3f8c56d3e60c6932, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:39:00.935 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-6] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/demo/employee] that should not be sampled [false]
+2017-07-18 09:39:00.936 DEBUG [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:39:00.950 DEBUG [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 851365e808a417ed, Span: 851365e808a417ed, Parent: null, exportable:true]
+2017-07-18 09:39:00.951 DEBUG [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployeeDetails] to a span [Trace: 851365e808a417ed, Span: 851365e808a417ed, Parent: null, exportable:true]
+2017-07-18 09:39:00.951 DEBUG [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [DemoController] to a span [Trace: 851365e808a417ed, Span: 851365e808a417ed, Parent: null, exportable:true]
+2017-07-18 09:39:00.951  INFO [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] com.demo.main.DemoController             : Inside demo-service
+2017-07-18 09:39:00.951 DEBUG [demo-service,851365e808a417ed,102461c3b1e59193,true] 1306 --- [XNIO-2 task-6] .w.c.AbstractTraceHttpRequestInterceptor : Starting new client span [[Trace: 851365e808a417ed, Span: 102461c3b1e59193, Parent: 851365e808a417ed, exportable:true]]
+2017-07-18 09:39:00.978  INFO [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] com.demo.main.DemoController             : employee service returned: Welcome Employee
+2017-07-18 09:39:00.987 DEBUG [demo-service,851365e808a417ed,851365e808a417ed,true] 1306 --- [XNIO-2 task-6] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 851365e808a417ed, Span: 851365e808a417ed, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:39:01.544 DEBUG [demo-service,,,] 1306 --- [task-scheduler-1] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [2] spans
+2017-07-18 09:39:01.544 DEBUG [demo-service,,,] 1306 --- [task-scheduler-1] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:39:01.561 DEBUG [demo-service,26c0b30e82805222,26c0b30e82805222,false] 1306 --- [task-scheduler-1] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: 26c0b30e82805222, Span: 26c0b30e82805222, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:39:29.539 DEBUG [demo-service,,,] 1306 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Received a request to uri [/demo/employee] that should not be sampled [false]
+2017-07-18 09:39:29.539 DEBUG [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : No parent span present - creating a new span
+2017-07-18 09:39:29.547 DEBUG [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] o.s.c.s.i.web.TraceHandlerInterceptor    : Handling span [Trace: 2733892744d103de, Span: 2733892744d103de, Parent: null, exportable:true]
+2017-07-18 09:39:29.547 DEBUG [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a method tag with value [getEmployeeDetails] to a span [Trace: 2733892744d103de, Span: 2733892744d103de, Parent: null, exportable:true]
+2017-07-18 09:39:29.547 DEBUG [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] o.s.c.s.i.web.TraceHandlerInterceptor    : Adding a class tag with value [DemoController] to a span [Trace: 2733892744d103de, Span: 2733892744d103de, Parent: null, exportable:true]
+2017-07-18 09:39:29.548  INFO [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] com.demo.main.DemoController             : Inside demo-service
+2017-07-18 09:39:29.548 DEBUG [demo-service,2733892744d103de,f7f52bac1cdc9cbe,true] 1306 --- [XNIO-2 task-7] .w.c.AbstractTraceHttpRequestInterceptor : Starting new client span [[Trace: 2733892744d103de, Span: f7f52bac1cdc9cbe, Parent: 2733892744d103de, exportable:true]]
+2017-07-18 09:39:29.565  INFO [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] com.demo.main.DemoController             : employee service returned: Welcome Employee
+2017-07-18 09:39:29.569 DEBUG [demo-service,,,] 1306 --- [task-scheduler-5] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:39:29.569 DEBUG [demo-service,,,] 1306 --- [task-scheduler-5] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:39:29.582 DEBUG [demo-service,e822e63951918efd,e822e63951918efd,false] 1306 --- [task-scheduler-5] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: e822e63951918efd, Span: e822e63951918efd, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:39:29.584 DEBUG [demo-service,2733892744d103de,2733892744d103de,true] 1306 --- [XNIO-2 task-7] o.s.c.sleuth.instrument.web.TraceFilter  : Closing the span [Trace: 2733892744d103de, Span: 2733892744d103de, Parent: null, exportable:true] since the response was successful
+2017-07-18 09:39:30.582 DEBUG [demo-service,,,] 1306 --- [task-scheduler-10] o.s.c.sleuth.stream.StreamSpanReporter   : Processed [1] spans
+2017-07-18 09:39:30.583 DEBUG [demo-service,,,] 1306 --- [task-scheduler-10] o.s.c.s.s.ServerPropertiesHostLocator    : Span will contain serviceName [demo-service]
+2017-07-18 09:39:30.594 DEBUG [demo-service,ffcff28fb3e66f7c,ffcff28fb3e66f7c,false] 1306 --- [task-scheduler-10] o.s.c.sleuth.stream.StreamSpanReporter   : The span [Trace: ffcff28fb3e66f7c, Span: ffcff28fb3e66f7c, Parent: null, exportable:false] will not be sent to Zipkin due to sampling
+2017-07-18 09:40:07.638  INFO [demo-service,,,] 1306 --- [Thread-8] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79f67b02: startup date [Tue Jul 18 09:35:34 UTC 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@179af728
+2017-07-18 09:40:07.639  INFO [demo-service,,,] 1306 --- [Thread-8] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@fbb0655: startup date [Tue Jul 18 09:35:52 UTC 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79f67b02
+2017-07-18 09:40:07.655  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2017-07-18 09:40:07.655  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482647
+2017-07-18 09:40:07.778  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-07-18 09:40:07.779  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-07-18 09:40:07.781  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.channel.PublishSubscribeChannel    : Channel 'demo-service:5002.errorChannel' has 0 subscriber(s).
+2017-07-18 09:40:07.781  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2017-07-18 09:40:07.781  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.e.SourcePollingChannelAdapter      : stopped sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-07-18 09:40:07.781  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2017-07-18 09:40:07.781  INFO [demo-service,,,] 1306 --- [Thread-8] o.a.k.clients.producer.KafkaProducer     : Closing the Kafka producer with timeoutMillis = 30000 ms.
+2017-07-18 09:40:07.794  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2017-07-18 09:40:07.796  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Unregistering JMX-exposed beans on shutdown
+2017-07-18 09:40:07.796  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Unregistering JMX-exposed beans
+2017-07-18 09:40:07.796  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: sleuth
+2017-07-18 09:40:07.796  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: errorChannel
+2017-07-18 09:40:07.797  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2017-07-18 09:40:07.797  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2017-07-18 09:40:07.797  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.integration.endpoint.MethodInvokingMessageSource@4a334cb5
+2017-07-18 09:40:07.797  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-18 09:40:07.802  INFO [demo-service,,,] 1306 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-18 09:40:07.812  INFO [demo-service,,,] 1306 --- [Thread-8] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'

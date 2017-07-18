@@ -18,7 +18,7 @@ public class DemoController {
     @Autowired
 	private RestTemplate restTemplate;
 
-	@Value("${empUrl}")
+    @Value("${empUrl}")
     String empUrl;
     
    

@@ -11,11 +11,11 @@ import org.springframework.context.annotation.Bean;
 
 
 @SpringBootApplication
-public class Application {
+public class EmployeeApplication {
 
-	private static final Logger logger = LoggerFactory.getLogger(Application.class);
+	private static final Logger logger = LoggerFactory.getLogger(EmployeeApplication.class);
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(EmployeeApplication.class, args);
 	}
 
 	@Bean
